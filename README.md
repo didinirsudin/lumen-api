@@ -11,6 +11,73 @@ Laravel Lumen is a stunningly fast PHP micro-framework for building web applicat
 
 Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
 
+## PHP-JWT
+
+Documentation for the firebase PHP-JWT can be found on the [firebase/PHP-JWT](https://github.com/firebase/php-jwt).
+
+## API Routes
+
+<table>
+<thead>
+<tr>
+<th>HTTP Method</th>
+<th>Path</th>
+<th>Action</th>
+<th>Desciption</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>POST</td>
+<td>/auth/register</td>
+<td>register</td>
+<td>register users</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>/auth/login</td>
+<td>login</td>
+<td>login users</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>/mhs/user</td>
+<td>show</td>
+<td>get users</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>/mhs/profile</td>
+<td>store</td>
+<td>create profile</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>/mhs/profile</td>
+<td>show</td>
+<td>get profile</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td>/mhs/profile</td>
+<td>update</td>
+<td>update profile</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>/mhs/profile</td>
+<td>destroy</td>
+<td>delete profile</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>/mhs/logout</td>
+<td>logout</td>
+<td>logout session</td>
+</tr>
+</tbody>
+</table>
+
 ## Contributing
 
 Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
